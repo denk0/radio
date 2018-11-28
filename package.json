@@ -2,6 +2,10 @@
   "name": "radio",
   "version": "0.0.0",
   "scripts": {
+    "now-build": "ng build --prod",
+    "now-deploy": "now",
+    "now-alias": "now alias",
+    "now": "npm run now-deploy && npm run now-alias",
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
@@ -21,6 +25,7 @@
     "@angular/router": "~7.1.0",
     "core-js": "^2.5.4",
     "rxjs": "~6.3.3",
+    "serve": "^10.1.1",
     "tslib": "^1.9.0",
     "zone.js": "~0.8.26"
   },
