@@ -1,7 +1,7 @@
 {
   "version": 2,
   "alias": ["chifir.online", "www.chifir.online"],
-  "name": "ng",
+  "name": "chifir.online-web",
   "builds": [
     { "src": "package.json", "use": "@now/static-build" }
   ]
